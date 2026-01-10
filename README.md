@@ -40,20 +40,21 @@ LTX-2 requires Gemma-3-12b variants.
 ### **Comfy-Org Optimized Encoders**
 Official and optimized versions for ComfyUI.
 
-| Model Name | Size | Download |
-| :--- | :--- | :--- |
-| `gemma_3_12B_it.safetensors` | 24.1 GB | [Link](https://huggingface.co/Comfy-Org/ltx-2/blob/main/split_files/text_encoders/gemma_3_12B_it.safetensors) |
-| `gemma_3_12B_it_fpmixed.safetensors` | 12.2 GB | [Link](https://huggingface.co/Comfy-Org/ltx-2/blob/main/split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors) |
-| `gemma_3_12B_it_fp8_scaled.safetensors` | 12.3 GB | [Link](https://huggingface.co/Comfy-Org/ltx-2/blob/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors) |
-| `gemma_3_12B_it_fp4_mixed.safetensors` | 7.02 GB | [Link](https://huggingface.co/Comfy-Org/ltx-2/blob/main/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors) |
+| Model Name | Note | Size | Download |
+| :--- | :--- | :---: | :---: |
+| `gemma_3_12B_it.safetensors` |  | 24.4 GB | [Link](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it.safetensors?download=true) |
+| `gemma_3_12B_it_fpmixed.safetensors` | Experimental quant. Should be better than the fp8 scaled | 13.7 GB | [Link](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors?download=true) |
+| `gemma_3_12B_it_fp8_scaled.safetensors` |  | 13.2 GB | [Link](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors?download=true) |
+| `gemma_3_12B_it_fp4_mixed.safetensors` | 90% fp4 layers | 9.5 GB | [Link](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors?download=true) |
 
-### **FusionCow Gemma-3-12b Abliterated**
-Fixed versions of the abliterated Gemma-3-12b-it model, modified specifically for compatibility with LTX-2.
+
+### **Gemma-3-12b Abliterated**
+Fixed versions of the abliterated Gemma-3-12b-it model by [FusionCow](https://huggingface.co/FusionCow/Gemma-3-12b-Abliterated-LTX2), modified specifically for compatibility with LTX-2. The [original model](https://huggingface.co/mlabonne/gemma-3-12b-it-abliterated-v2( 
 
 | Model Name | Size | Download |
-| :--- | :--- | :--- |
-| `gemma_ablit_fixed_bf16.safetensors` | 24.1 GB | [Link](https://huggingface.co/FusionCow/Gemma-3-12b-Abliterated-LTX2/blob/main/gemma_ablit_fixed_bf16.safetensors) |
-| `gemma_ablit_fixed_fp8.safetensors` | 12.3 GB | [Link](https://huggingface.co/FusionCow/Gemma-3-12b-Abliterated-LTX2/blob/main/gemma_ablit_fixed_fp8.safetensors) |
+| :--- | :---: | :---: |
+| `gemma_ablit_fixed_bf16.safetensors` | 23.5 GB | [Link](https://huggingface.co/FusionCow/Gemma-3-12b-Abliterated-LTX2/resolve/main/gemma_ablit_fixed_bf16.safetensors?download=true) |
+| `gemma_ablit_fixed_fp8.safetensors` | 13.8 GB | [Link](https://huggingface.co/FusionCow/Gemma-3-12b-Abliterated-LTX2/resolve/main/gemma_ablit_fixed_fp8.safetensors?download=true) |
 
 ---
 
