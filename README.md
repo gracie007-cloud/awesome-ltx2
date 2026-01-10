@@ -49,7 +49,7 @@ Official and optimized versions for ComfyUI.
 
 
 ### **Gemma-3-12b Abliterated**
-Fixed versions of the abliterated Gemma-3-12b-it model by [FusionCow](https://huggingface.co/FusionCow/Gemma-3-12b-Abliterated-LTX2), modified specifically for compatibility with LTX-2. The [original model](https://huggingface.co/mlabonne/gemma-3-12b-it-abliterated-v2( 
+Fixed versions of the abliterated Gemma-3-12b-it model by [FusionCow](https://huggingface.co/FusionCow/Gemma-3-12b-Abliterated-LTX2), modified specifically for compatibility with LTX-2. The [original model](https://huggingface.co/mlabonne/gemma-3-12b-it-abliterated-v2)
 
 | Model Name | Size | Download |
 | :--- | :---: | :---: |
@@ -60,11 +60,13 @@ Fixed versions of the abliterated Gemma-3-12b-it model by [FusionCow](https://hu
 
 ## Separated Components
 
+Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy). For alternative way to load the models in Comfy
+
 ### VAE (Video & Audio)
-| Component | Download Link |
-| :--- | :--- |
-| **Video VAE (BF16)** | [Download](https://huggingface.co/Kijai/LTXV2_comfy/blob/main/VAE/LTX2_video_vae_bf16.safetensors) |
-| **Audio VAE (BF16)** | [Download](https://huggingface.co/Kijai/LTXV2_comfy/blob/main/VAE/LTX2_audio_vae_bf16.safetensors) |
+| Component | Precision | Size | Download Link |
+| :--- | :---: | :---: | :---: |
+| **Video VAE** | BF16 | 2.49 GB | [Link](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_bf16.safetensors?download=true) |
+| **Audio VAE** | BF16 | 218 MB | [Link](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_audio_vae_bf16.safetensors?download=true) |
 
 ### Diffusion Models (Transformer Only)
 *   [ltx-2-19b-dev-bf16](https://huggingface.co/Kijai/LTXV2_comfy/blob/main/diffusion_models/ltx-2-19b-dev_transformer_only_bf16.safetensors)
