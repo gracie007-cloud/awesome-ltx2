@@ -31,6 +31,15 @@ These models are optimized for lower memory usage. Note that in ComfyUI, these a
 
 *   **Other GGUF Sources:** [QuantStack/LTX-2-GGUF](https://huggingface.co/QuantStack/LTX-2-GGUF)
 
+### Distilled LoRA
+
+| Rank | Precision | Size | Download |
+| :--- | :---: | :---: | :---: |
+| `384` | bf16 | 7.67 GB | [Link](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled-lora-384.safetensors)
+| `242` | bf16 | 4.88 GB | [Link](https://huggingface.co/Kijai/LTXV2_comfy/blob/main/loras/ltx-2-19b-distilled-lora-resized_dynamic_fro095_avg_rank_242_bf16.safetensors) |
+| `175` | bf16 | 3.58 GB | [Link](https://huggingface.co/Kijai/LTXV2_comfy/blob/main/loras/ltx-2-19b-distilled-lora_resized_dynamic_fro09_avg_rank_175_bf16.safetensors) |
+| `242` | fp8 | 1.79 GB | [Link](https://huggingface.co/Kijai/LTXV2_comfy/blob/main/loras/ltx-2-19b-distilled-lora_resized_dynamic_fro09_avg_rank_175_fp8.safetensors) |
+
 ---
 
 ## Text Encoders
