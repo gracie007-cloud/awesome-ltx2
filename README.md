@@ -164,6 +164,8 @@ Fixed versions of the abliterated Gemma-3-12b-it model by [FusionCow](https://hu
  <details>
   <summary>Gemma 3 12B IT Heretic</summary>
 
+Models by [DreamFast](https://huggingface.co/DreamFast/gemma-3-12b-it-heretic)
+
 #### Safetensors
 | Model | Precision | Size | Download |
 | :--- | :---: | :---: | :---: |
@@ -185,6 +187,7 @@ Fixed versions of the abliterated Gemma-3-12b-it model by [FusionCow](https://hu
 | `Q3_K_M` | 5.6GB | Acceptable | For very low VRAM only | [Link](https://huggingface.co/DreamFast/gemma-3-12b-it-heretic/resolve/main/gguf/gemma-3-12b-it-heretic-Q4_K_M.gguf) |
 
 </details>
+
 ---
 
 ## Separated Components
