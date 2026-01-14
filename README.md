@@ -222,8 +222,8 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy), 
 | Component | Precision | Size | Download Link |
 | :--- | :---: | :---: | :---: |
 | **Video VAE** | BF16 | 2.45 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_bf16.safetensors) |
-| Video VAE old | BF16 | 2.49 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_old_bf16.safetensors), [Vantage](https://huggingface.co/vantagewithai/LTX-2-Split/resolve/main/vae/ltx-2-19b-VAE.safetensors) |
-| **Audio VAE** | BF16 | 218 MB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_audio_vae_bf16.safetensors?download=true), [Vantage](https://huggingface.co/vantagewithai/LTX-2-Split/resolve/main/audio_vae/ltx-2-19b-audio_vae.safetensors) |
+| Video VAE old | BF16 | 2.49 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_old_bf16.safetensors) |
+| **Audio VAE** | BF16 | 218 MB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_audio_vae_bf16.safetensors?download=true) |
 
 
 
@@ -231,8 +231,8 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy), 
 
 | Name | Precision | Size | Download |
 | :--- | :---: | :---: | :---: |
-| `Connector dev` | bf16 | 2.86 GB | [Link](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/text_encoders/ltx-2-19b-embeddings_connector_dev_bf16.safetensors), [Vantage](https://huggingface.co/vantagewithai/LTX-2-Split/resolve/main/text_encoder/ltx-2-19b-text_encoder.safetensors) |
-| `Connector distilled` | bf16 | 2.86 GB | [Link](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/text_encoders/ltx-2-19b-embeddings_connector_distill_bf16.safetensors) |
+| `Connector dev` | bf16 | 2.86 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/text_encoders/ltx-2-19b-embeddings_connector_dev_bf16.safetensors) |
+| `Connector distilled` | bf16 | 2.86 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/text_encoders/ltx-2-19b-embeddings_connector_distill_bf16.safetensors) |
 
 <p id="lora" align="center">◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆</p>  
 
