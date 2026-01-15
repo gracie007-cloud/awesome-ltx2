@@ -212,10 +212,11 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy), 
 
 | Name | Precision | Size | Download |
 | :--- | :---: | :---: | :---: |
-| `ltx-2-19b dev` | bf16 | 37.8 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-dev_transformer_only_bf16.safetensors), [Vantage](https://huggingface.co/vantagewithai/LTX-2-Split/resolve/main/model/ltx-2-19b-dev-model.safetensors) |
-| `ltx-2-19b dev` | fp8 | 21.6 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-dev-fp8_transformer_only.safetensors), [Vantage](https://huggingface.co/vantagewithai/LTX-2-Split/resolve/main/model/ltx-2-19b-dev-model-fp8.safetensors) |
-| `ltx-2-19b distilled` | bf16 | 37.8 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-distilled_transformer_only_bf16.safetensors?download=true), [Vantage](https://huggingface.co/vantagewithai/LTX-2-Split/resolve/main/model/ltx-2-19b-distilled-model.safetensors) |
-| `ltx-2-19b distilled` | fp8 | 21.6 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-distilled-fp8_transformer_only.safetensors), [Vantage](https://huggingface.co/vantagewithai/LTX-2-Split/resolve/main/model/ltx-2-19b-distilled-model-fp8.safetensors) |
+| `ltx-2-19b dev` | bf16 | 37.8 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-dev_transformer_only_bf16.safetensors) |
+| `ltx-2-19b dev` | fp8 | 21.6 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-dev-fp8_transformer_only.safetensors) |
+| `ltx-2-19b dev` | fp4 | 14.5 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-dev_fp4_transformer_only.safetensors) |
+| `ltx-2-19b distilled` | bf16 | 37.8 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-distilled_transformer_only_bf16.safetensors?download=true) |
+| `ltx-2-19b distilled` | fp8 | 21.6 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-distilled-fp8_transformer_only.safetensors) |
 
 
 ### VAE (Video & Audio)
