@@ -295,3 +295,21 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy), 
 * [Canny control](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/templates/video_ltx2_canny_to_video.json)
 * [Pose control](https://raw.githubusercontent.com/Comfy-Org/workflow_templates/refs/heads/main/templates/video_ltx2_pose_to_video.json)
 
+**RuneXX**:
+
+Good collection by [RuneXX](https://huggingface.co/RuneXX)
+
+* [First Last Frame v2 (experimental)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20First%20Last%20Frame%20v2%20(experimental).json)
+* [First Middle Last Frame v2 (experimental)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20First%20Middle%20Last%20Frame%20v2%20(experimental).json)
+* [I2V Basic (GGUF)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20I2V%20Basic%20(GGUF).json)
+* [I2V Basic (custom audio)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20I2V%20Basic%20(custom%20audio).json)
+* [I2V Basic)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20I2V%20Basic.json)
+* [I2V Simple (no upscale)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20I2V%20Simple%20(no%20upscale).json)
+* [I2V Simple (with upscale)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20I2V%20Simple%20(with%20upscale))
+* [T2V Basic (GGUF)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20T2V%20Basic%20(GGUF).json)
+* [T2V Basic (custom audio)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20T2V%20Basic%20(custom%20audio).json)
+* [T2V Basic (low vram)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20T2V%20Basic%20(low%20vram).json)
+* [T2V Basic](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20T2V%20Basic.json)
+* [V2V (extend any video)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20V2V%20(extend%20any%20video).json)
+  
+
