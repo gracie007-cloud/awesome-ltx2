@@ -326,6 +326,8 @@ Good collection by [RuneXX](https://huggingface.co/RuneXX)
 * [T2V Talking Avatar (voice clone Qwen-TTS)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20T2V%20Talking%20Avatar%20(voice%20clone%20Qwen-TTS).json)
 * [V2A Foley (add sound to any video)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20V2A%20Foley%20(add%20sound%20to%20any%20video).json)
 * [V2V (extend any video)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20V2V%20(extend%20any%20video).json)
+* [V2V Head Swap Experimental (BFS lora)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20V2V%20Head%20Swap%20Experimental%20(BFS%20lora).json)
+* [V2V Just Dub It (experimental)(translate speech auto dubbing)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20V2V%20Just%20Dub%20It%20(experimental)(translate%20speech%20auto%20dubbing).json)
 
 
 
