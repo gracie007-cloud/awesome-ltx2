@@ -56,19 +56,19 @@ Required for current two-stage pipeline implementations in this repository. Down
 
 | Ver | Name | Size | Download |
 | :--- | :--- | :--- | :--- |
-| **2.3** | [`ltx-2.3-spatial-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.0.safetensors) | 996 MB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.0.safetensors) |
-| **2.3** | [`ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors) | 1.09 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors) |
+| **2.3** | [`ltx-2.3-spatial-upscaler-x2-1.0`](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.0.safetensors) | 996 MB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.0.safetensors) |
+| **2.3** | [`ltx-2.3-spatial-upscaler-x1.5-1.0`](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors) | 1.09 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors) |
 | | | | |
-| **2** | [`ltx-2-spatial-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-spatial-upscaler-x2-1.0.safetensors) | 1.05 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-spatial-upscaler-x2-1.0.safetensors) |
+| **2** | [`ltx-2-spatial-upscaler-x2-1.0`](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-spatial-upscaler-x2-1.0.safetensors) | 1.05 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-spatial-upscaler-x2-1.0.safetensors) |
 
 #### **Temporal Upscaler**
 Required for current two-stage pipeline implementations in this repository. Download to `COMFYUI_ROOT_FOLDER/models/latent_upscale_models` folder.
 
 | Ver | Name | Size | Download |
 | :--- | :--- | :--- | :--- |
-| **2.3** | [`ltx-2.3-temporal-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-temporal-upscaler-x2-1.0.safetensors) | 262 MB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-temporal-upscaler-x2-1.0.safetensors) |
+| **2.3** | [`ltx-2.3-temporal-upscaler-x2-1.0`](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-temporal-upscaler-x2-1.0.safetensors) | 262 MB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-temporal-upscaler-x2-1.0.safetensors) |
 | | | | |
-| **2** | [`ltx-2-temporal-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-temporal-upscaler-x2-1.0.safetensors) | 262 MB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-temporal-upscaler-x2-1.0.safetensors) |
+| **2** | [`ltx-2-temporal-upscaler-x2-1.0`](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-temporal-upscaler-x2-1.0.safetensors) | 262 MB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-temporal-upscaler-x2-1.0.safetensors) |
 
 <p id="gguf" align="center">══════════════════════════════════</p>
 
@@ -97,7 +97,27 @@ These models are optimized for lower memory usage. Note that in ComfyUI, these a
 <details>
   <summary>Unsloth </summary>
 
-#### [Unsloth GGUFs](https://huggingface.co/unsloth/LTX-2-GGUF)
+#### [Unsloth LTX-2.3 GGUF](https://huggingface.co/unsloth/LTX-2.3-GGUF)
+
+| Model | Quant | Size | Download |
+| :--- | :--- | :--- | :--- |
+| ltx-2.3-22b | BF16 | 38 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-BF16.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-BF16.gguf) |
+| ltx-2.3-22b | F16 | 38 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-F16.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-F16.gguf) |
+| ltx-2.3-22b | Q2_K | 7.59 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q2_K.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q2_K.gguf) |
+| ltx-2.3-22b | Q3_K_M | 9.79 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q3_K_M.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q3_K_M.gguf) |
+| ltx-2.3-22b | Q3_K_S | 9.08 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q3_K_S.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q3_K_S.gguf) |
+| ltx-2.3-22b | Q4_0 | 11.5 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q4_0.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q4_0.gguf) |
+| ltx-2.3-22b | Q4_1 | 12.5 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q4_1.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q4_1.gguf) |
+| ltx-2.3-22b | Q4_K_M | 13 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q4_K_M.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q4_K_M.gguf) |
+| ltx-2.3-22b | Q4_K_S | 11.9 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q4_K_S.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q4_K_S.gguf) |
+| ltx-2.3-22b | Q5_0 | 13.9 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q5_0.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q5_0.gguf) |
+| ltx-2.3-22b | Q5_1 | 14.8 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q5_1.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q5_1.gguf) |
+| ltx-2.3-22b | Q5_K_M | 14.6 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q5_K_M.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q5_K_M.gguf) |
+| ltx-2.3-22b | Q5_K_S | 13.9 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q5_K_S.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q5_K_S.gguf) |
+| ltx-2.3-22b | Q6_K | 16.1 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q6_K.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q6_K.gguf) |
+| ltx-2.3-22b | Q8_0 | 20.6 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q8_0.gguf) - [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-Q8_0.gguf) |
+
+#### [Unsloth LTX-2 GGUF](https://huggingface.co/unsloth/LTX-2-GGUF)
 
 | Model | Quant | Size | Download |
 | :--- | :--- | :--- | :--- |
@@ -119,6 +139,7 @@ These models are optimized for lower memory usage. Note that in ComfyUI, these a
 | ltx-2-19b-dev | Q5_K_S | 13.6 GB | [Unsloth](https://huggingface.co/unsloth/LTX-2-GGUF/resolve/main/ltx-2-19b-dev-Q5_K_S.gguf) |
 | ltx-2-19b-dev | Q6_K | 16 GB | [Unsloth](https://huggingface.co/unsloth/LTX-2-GGUF/resolve/main/ltx-2-19b-dev-Q6_K.gguf) |
 | ltx-2-19b-dev | Q8_0 | 20.4 GB | [Unsloth](https://huggingface.co/unsloth/LTX-2-GGUF/resolve/main/ltx-2-19b-dev-Q8_0.gguf) |
+
 
 </details>
 
@@ -168,10 +189,10 @@ Official and optimized versions for ComfyUI.
 
 | Model Name | Size | Download |
 | :--- | :--- | :---: |
-| `gemma_3_12B_it.safetensors` | 24.4 GB | [ComfyUI](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it.safetensors?download=true) |
-| `gemma_3_12B_it_fpmixed.safetensors` | 13.7 GB | [ComfyUI](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors?download=true) |
-| `gemma_3_12B_it_fp8_scaled.safetensors` | 13.2 GB | [ComfyUI](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors?download=true) |
-| `gemma_3_12B_it_fp4_mixed.safetensors` |  9.5 GB | [ComfyUI](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors?download=true) |
+| `gemma_3_12B_it` | 24.4 GB | [ComfyUI](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it.safetensors?download=true) |
+| `gemma_3_12B_it_fpmixed` | 13.7 GB | [ComfyUI](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fpmixed.safetensors?download=true) |
+| `gemma_3_12B_it_fp8_scaled` | 13.2 GB | [ComfyUI](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors?download=true) |
+| `gemma_3_12B_it_fp4_mixed` |  9.5 GB | [ComfyUI](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors?download=true) |
 
 * `gemma_3_12B_it_fpmixed`: Experimental quant. Should be better than the fp8 scaled
 * `gemma_3_12B_it_fp4_mixed`: 90% fp4 layers
@@ -250,12 +271,15 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
 
 | Ver | Component | Precision | Size | Download |
 | :--- | :--- | :---: | :---: | :--- |
-| **2.3** | **Video VAE** | BF16 | 1.45 GB | [Kijai](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_video_vae_bf16.safetensors) |
-| **2.3** | **Audio VAE** | BF16 | 365 MB | [Kijai](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_audio_vae_bf16.safetensors) |
+| **2.3** | `Video VAE` | BF16 | 1.45 GB | [Kijai](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_video_vae_bf16.safetensors) |
+| **2.3** | `Audio VAE` | BF16 | 365 MB | [Kijai](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_audio_vae_bf16.safetensors) |
+| **2.3** | `Video VAE` | - | 1.45 GB | [Unsloth](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/vae/ltx-2.3-22b-dev_video_vae.safetensors) |
+| **2.3** | `Audio VAE` | - | 365 MB | [Unsloth](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/vae/ltx-2.3-22b-dev_audio_vae.safetensors) |
+| **2.3** | `Video VAE Distilled` | - | 1.45 GB | [Unsloth](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/vae/ltx-2.3-22b-distilled_video_vae.safetensors) |
+| **2.3** | `Audio VAE Distilled` | - | 365 MB | [Unsloth](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/vae/ltx-2.3-22b-distilled_audio_vae.safetensors) |
 | | | | | |
-| **2** | **Video VAE** | BF16 | 2.45 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_bf16.safetensors) |
-| **2** | Video VAE old | BF16 | 2.49 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_old_bf16.safetensors) |
-| **2** | **Audio VAE** | BF16 | 218 MB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_audio_vae_bf16.safetensors?download=true) |
+| **2** | `Video VAE` | BF16 | 2.45 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_bf16.safetensors) |
+| **2** | `Audio VAE` | BF16 | 218 MB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_audio_vae_bf16.safetensors?download=true) |
 
 
 ### Embedding Connectors & Text Projection
@@ -263,6 +287,8 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
 | Ver | Name | Precision | Size | Download |
 | :--- | :--- | :---: | :---: | :--- |
 | **2.3** | `Text Projection` | bf16 | 2.31 GB | [Kijai](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/text_encoders/ltx-2.3_text_projection_bf16.safetensors) |
+| **2.3** | `Embeddings Connectors dev` | - | 4.03 GB | [Unsloth](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/text_encoders/ltx-2.3-22b-dev_embeddings_connectors.safetensors) |
+| **2.3** | `Embeddings Connectors distilled` | - | 4.03 GB | [Unsloth](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/text_encoders/ltx-2.3-22b-distilled_embeddings_connectors.safetensors) |
 | | | | | |
 | **2** | `Connector dev` | bf16 | 2.86 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/text_encoders/ltx-2-19b-embeddings_connector_dev_bf16.safetensors) |
 | **2** | `Connector distilled` | bf16 | 2.86 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/text_encoders/ltx-2-19b-embeddings_connector_distill_bf16.safetensors) |
