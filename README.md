@@ -18,11 +18,14 @@ LTX-2 models are available in various formats including full weights, transforme
 
 * **[Lightricks/LTX-2](https://huggingface.co/Lightricks/LTX-2)** - Official repository.
 * **[Lightricks/LTX-2.3](https://huggingface.co/Lightricks/LTX-2.3)** - Official repository (latest version).
+* **[Drbaph](https://huggingface.co/drbaph/LTX-2.3-FP8)** - Quantization
 
 | Ver | Name | Precision | Size | Download |
 | :--- | :--- | :---: | :---: | :---: |
 | **2.3** | `ltx-2.3-22b dev` | bf16 | 46.1 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-dev.safetensors) |
 | **2.3** | `ltx-2.3-22b distilled` | bf16 | 46.1 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled.safetensors) |
+| **2.3** | `ltx-2.3-22b dev` | fp8 mixed | 29.9 GB | [drbaph](https://huggingface.co/drbaph/LTX-2.3-FP8/resolve/main/ltx-2.3-22b-dev-fp8_mixed.safetensors) |
+| **2.3** | `ltx-2.3-22b distilled` | fp8 mixed | 29.9 GB | [drbaph](https://huggingface.co/drbaph/LTX-2.3-FP8/resolve/main/ltx-2.3-22b-distilled-fp8_mixed.safetensors) |
 | | | | | |
 | **2** | `ltx-2-19b dev` | bf16 | 43.3 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-dev.safetensors) |
 | **2** | `ltx-2-19b dev` | fp8 | 27.1 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-dev-fp8.safetensors) |
