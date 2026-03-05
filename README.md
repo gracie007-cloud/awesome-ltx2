@@ -268,6 +268,7 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy). 
 *   [DonaldTrump](https://huggingface.co/Playtime-AI/LTX-2.DonaldTrump)
 *   [WHATUSEE](https://huggingface.co/o-8-o/WHATUSEE_LTX-2-19B_LoRA)
 *   [Squish – One Hand Only](https://huggingface.co/kabachuha/ltx2-squish-one-hand)
+*   [Black Venom](https://huggingface.co/siraxe/black_venom_ltx2)
 * [HERO CAM](https://huggingface.co/Nebsh/LTX2_Herocam_Lora)
 * [Animatediff V1](https://huggingface.co/Nebsh/LTX2_Animatediff_style)
 * [PUSH TO GLASS](https://huggingface.co/Nebsh/LTX2_Pushtoglass)
