@@ -15,48 +15,66 @@ A curated list of models, text encoders, and tools for the LTX-2 video generatio
 LTX-2 models are available in various formats including full weights, transformers-only, and GGUF quantizations for efficient inference.
 
 ### Checkpoints
-* **[Lightricks/LTX-2](https://huggingface.co/Lightricks/LTX-2)** - Official repository.
 
-| Name | Precision | Size | Download |
-| :--- | :---: | :---: | :---: |
-| `ltx-2-19b dev` | bf16 | 43.3 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-dev.safetensors)
-| `ltx-2-19b dev` | fp8 | 27.1 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-dev-fp8.safetensors)
-| `ltx-2-19b dev` | fp4 | 20 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-dev-fp4.safetensors)
-| `ltx-2-19b distilled` | bf16 | 43.3 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled.safetensors)
-| `ltx-2-19b distilled` | fp8 | 27.1 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled-fp8.safetensors)
-| `ltx-2-19b distilled` | nvfp4 | 20 GB | [szwagros](https://huggingface.co/szwagros/ltx-2-dist-nvfp4/resolve/main/ltx-2-19b-distilled-nvfp4-fixed-calibrated.safetensors)
+* **[Lightricks/LTX-2](https://huggingface.co/Lightricks/LTX-2)** - Official repository.
+* **[Lightricks/LTX-2.3](https://huggingface.co/Lightricks/LTX-2.3)** - Official repository (latest version).
+
+| Ver | Name | Precision | Size | Download |
+| :--- | :--- | :---: | :---: | :---: |
+| **2.3** | `ltx-2.3-22b dev` | bf16 | 46.1 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-dev.safetensors) |
+| **2.3** | `ltx-2.3-22b distilled` | bf16 | 46.1 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled.safetensors) |
+| | | | | |
+| **2** | `ltx-2-19b dev` | bf16 | 43.3 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-dev.safetensors) |
+| **2** | `ltx-2-19b dev` | fp8 | 27.1 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-dev-fp8.safetensors) |
+| **2** | `ltx-2-19b dev` | fp4 | 20 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-dev-fp4.safetensors) |
+| **2** | `ltx-2-19b distilled` | bf16 | 43.3 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled.safetensors) |
+| **2** | `ltx-2-19b distilled` | fp8 | 27.1 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled-fp8.safetensors) |
+| **2** | `ltx-2-19b distilled` | nvfp4 | 20 GB | [szwagros](https://huggingface.co/szwagros/ltx-2-dist-nvfp4/resolve/main/ltx-2-19b-distilled-nvfp4-fixed-calibrated.safetensors) |
 
 Quantized to fp8_e5m2 to support older Triton with older Pytorch on 30 series GPUs. For WangGP in Pinokio
 
-| Name | Precision | Size | Download |
-| :--- | :---: | :---: | :---: |
-| `ltx-2-19b dev` | fp8_e5m2 | 27.1 GB | [Lightricks](https://huggingface.co/progmars/ltx-2-19b-dev-fp8_e5m2)
+| Ver | Name | Precision | Size | Download |
+| :--- | :--- | :---: | :---: | :---: |
+| **2** | `ltx-2-19b dev` | fp8_e5m2 | 27.1 GB | [Lightricks](https://huggingface.co/progmars/ltx-2-19b-dev-fp8_e5m2) |
 
 #### **Distilled LoRA**
 
-| Rank | Precision | Size | Download |
-| :--- | :---: | :---: | :---: |
-| `384` | bf16 | 7.67 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled-lora-384.safetensors)
-| `242` | bf16 | 4.88 GB | [Lightricks](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/loras/ltx-2-19b-distilled-lora-resized_dynamic_fro095_avg_rank_242_bf16.safetensors) |
-| `175` | bf16 | 3.58 GB | [Lightricks](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/loras/ltx-2-19b-distilled-lora_resized_dynamic_fro09_avg_rank_175_bf16.safetensors) |
-| `175` | fp8 | 1.79 GB | [Lightricks](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/loras/ltx-2-19b-distilled-lora_resized_dynamic_fro09_avg_rank_175_fp8.safetensors) |
+| Ver | Rank | Precision | Size | Download |
+| :--- | :--- | :---: | :---: | :---: |
+| **2.3** | `384` | bf16 | 7.61 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled-lora-384.safetensors) |
+| | | | | |
+| **2** | `384` | bf16 | 7.67 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-19b-distilled-lora-384.safetensors) |
+| **2** | `242` | bf16 | 4.88 GB | [Lightricks](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/loras/ltx-2-19b-distilled-lora-resized_dynamic_fro095_avg_rank_242_bf16.safetensors) |
+| **2** | `175` | bf16 | 3.58 GB | [Lightricks](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/loras/ltx-2-19b-distilled-lora_resized_dynamic_fro09_avg_rank_175_bf16.safetensors) |
+| **2** | `175` | fp8 | 1.79 GB | [Lightricks](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/loras/ltx-2-19b-distilled-lora_resized_dynamic_fro09_avg_rank_175_fp8.safetensors) |
 
-#### **Spatial Upscaler** 
+#### **Spatial Upscaler**
 Required for current two-stage pipeline implementations in this repository. Download to `COMFYUI_ROOT_FOLDER/models/latent_upscale_models` folder.
-  * [`ltx-2-spatial-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-spatial-upscaler-x2-1.0.safetensors)
 
-#### **Temporal Upscaler** 
+| Ver | Name | Size | Download |
+| :--- | :--- | :--- | :--- |
+| **2.3** | [`ltx-2.3-spatial-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.0.safetensors) | 996 MB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.0.safetensors) |
+| **2.3** | [`ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors) | 1.09 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x1.5-1.0.safetensors) |
+| | | | |
+| **2** | [`ltx-2-spatial-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-spatial-upscaler-x2-1.0.safetensors) | 1.05 GB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-spatial-upscaler-x2-1.0.safetensors) |
+
+#### **Temporal Upscaler**
 Required for current two-stage pipeline implementations in this repository. Download to `COMFYUI_ROOT_FOLDER/models/latent_upscale_models` folder.
-  * [`ltx-2-temporal-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-temporal-upscaler-x2-1.0.safetensors)
 
-<p id="gguf" align="center">══════════════════════════════════</p>  
+| Ver | Name | Size | Download |
+| :--- | :--- | :--- | :--- |
+| **2.3** | [`ltx-2.3-temporal-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-temporal-upscaler-x2-1.0.safetensors) | 262 MB | [Lightricks](https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-temporal-upscaler-x2-1.0.safetensors) |
+| | | | |
+| **2** | [`ltx-2-temporal-upscaler-x2-1.0.safetensors`](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-temporal-upscaler-x2-1.0.safetensors) | 262 MB | [Lightricks](https://huggingface.co/Lightricks/LTX-2/resolve/main/ltx-2-temporal-upscaler-x2-1.0.safetensors) |
+
+<p id="gguf" align="center">══════════════════════════════════</p>
 
 ### GGUF Quantized Models
 These models are optimized for lower memory usage. Note that in ComfyUI, these are typically loaded as transformer-only models.
 
 <details>
   <summary>QuantStack</summary>
-  
+
 #### [QuantStack](https://huggingface.co/QuantStack/LTX-2-GGUF)
 
 | Model | Quant | Size | Download |
@@ -75,7 +93,7 @@ These models are optimized for lower memory usage. Note that in ComfyUI, these a
 
 <details>
   <summary>Unsloth </summary>
-  
+
 #### [Unsloth GGUFs](https://huggingface.co/unsloth/LTX-2-GGUF)
 
 | Model | Quant | Size | Download |
@@ -103,7 +121,7 @@ These models are optimized for lower memory usage. Note that in ComfyUI, these a
 
 <details>
   <summary>Vantage</summary>
-  
+
 #### [Vantage AI GGUFs](https://huggingface.co/vantagewithai/)
 
 | Model | Quant | Size | Download |
@@ -135,13 +153,14 @@ These models are optimized for lower memory usage. Note that in ComfyUI, these a
 
 </details>
 
-<p id="text-encoder" align="center">◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆</p>  
+<p id="text-encoder" align="center">◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆</p>
 
 ## Text Encoders
 
-LTX-2 requires Gemma-3-12b variants.
+LTX-2 requires Gemma-3-12b variants. LTX-2.3 uses text projection layers.
 
 ### **Comfy-Org Optimized Encoders**
+
 Official and optimized versions for ComfyUI.
 
 | Model Name | Size | Download |
@@ -204,40 +223,48 @@ Models by [DreamFast](https://huggingface.co/DreamFast/gemma-3-12b-it-heretic)
 
 </details>
 
-<p id="split" align="center">◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆</p>  
+<p id="split" align="center">◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆</p>
 
 ## Separated Components
 
-Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy). For alternative way to load the models in Comfy
+Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) and [Kijai](https://huggingface.co/Kijai/LTX2.3_comfy) for LTX-2.3. For alternative way to load the models in Comfy.
 
 ### Diffusion Models (Transformer Only)
 
-| Name | Precision | Size | Download |
-| :--- | :---: | :---: | :---: |
-| `ltx-2-19b dev` | bf16 | 37.8 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-dev_transformer_only_bf16.safetensors) |
-| `ltx-2-19b dev` | fp8 | 21.6 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-dev-fp8_transformer_only.safetensors) |
-| `ltx-2-19b dev` | fp4 | 14.5 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-dev_fp4_transformer_only.safetensors) |
-| `ltx-2-19b distilled` | bf16 | 37.8 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-distilled_transformer_only_bf16.safetensors?download=true) |
-| `ltx-2-19b distilled` | fp8 | 21.6 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-distilled-fp8_transformer_only.safetensors) |
+| Ver | Name | Precision | Size | Download |
+| :--- | :--- | :---: | :---: | :---: |
+| **2.3** | `ltx-2.3-22b distilled` | bf16 | 42 GB | [Kijai](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-distilled_transformer_only_bf16.safetensors) |
+| **2.3** | `ltx-2.3-22b distilled` | fp8 | 23.5 GB | [Kijai](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-distilled_transformer_only_fp8_scaled.safetensors) |
+| | | | | |
+| **2** | `ltx-2-19b dev` | bf16 | 37.8 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-dev_transformer_only_bf16.safetensors) |
+| **2** | `ltx-2-19b dev` | fp8 | 21.6 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-dev-fp8_transformer_only.safetensors) |
+| **2** | `ltx-2-19b dev` | fp4 | 14.5 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-dev_fp4_transformer_only.safetensors) |
+| **2** | `ltx-2-19b distilled` | bf16 | 37.8 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-distilled_transformer_only_bf16.safetensors?download=true) |
+| **2** | `ltx-2-19b distilled` | fp8 | 21.6 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/diffusion_models/ltx-2-19b-distilled-fp8_transformer_only.safetensors) |
 
 
 ### VAE (Video & Audio)
-| Component | Precision | Size | Download Link |
-| :--- | :---: | :---: | :---: |
-| **Video VAE** | BF16 | 2.45 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_bf16.safetensors) |
-| Video VAE old | BF16 | 2.49 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_old_bf16.safetensors) |
-| **Audio VAE** | BF16 | 218 MB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_audio_vae_bf16.safetensors?download=true) |
+
+| Ver | Component | Precision | Size | Download |
+| :--- | :--- | :---: | :---: | :--- |
+| **2.3** | **Video VAE** | BF16 | 1.45 GB | [Kijai](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_video_vae_bf16.safetensors) |
+| **2.3** | **Audio VAE** | BF16 | 365 MB | [Kijai](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_audio_vae_bf16.safetensors) |
+| | | | | |
+| **2** | **Video VAE** | BF16 | 2.45 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_bf16.safetensors) |
+| **2** | Video VAE old | BF16 | 2.49 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_video_vae_old_bf16.safetensors) |
+| **2** | **Audio VAE** | BF16 | 218 MB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/VAE/LTX2_audio_vae_bf16.safetensors?download=true) |
 
 
+### Embedding Connectors & Text Projection
 
-### Embedding Connectors
+| Ver | Name | Precision | Size | Download |
+| :--- | :--- | :---: | :---: | :--- |
+| **2.3** | `Text Projection` | bf16 | 2.31 GB | [Kijai](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/text_encoders/ltx-2.3_text_projection_bf16.safetensors) |
+| | | | | |
+| **2** | `Connector dev` | bf16 | 2.86 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/text_encoders/ltx-2-19b-embeddings_connector_dev_bf16.safetensors) |
+| **2** | `Connector distilled` | bf16 | 2.86 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/text_encoders/ltx-2-19b-embeddings_connector_distill_bf16.safetensors) |
 
-| Name | Precision | Size | Download |
-| :--- | :---: | :---: | :---: |
-| `Connector dev` | bf16 | 2.86 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/text_encoders/ltx-2-19b-embeddings_connector_dev_bf16.safetensors) |
-| `Connector distilled` | bf16 | 2.86 GB | [Kijai](https://huggingface.co/Kijai/LTXV2_comfy/resolve/main/text_encoders/ltx-2-19b-embeddings_connector_distill_bf16.safetensors) |
-
-<p id="lora" align="center">◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆</p>  
+<p id="lora" align="center">◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆</p>
 
 ## LoRA
 
@@ -251,7 +278,7 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy). 
   * [`Depth Control`](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Depth-Control/blob/main/ltx-2-19b-ic-lora-depth-control.safetensors)
   * [`Detailer`](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Detailer/blob/main/ltx-2-19b-ic-lora-detailer.safetensors)
   * [`Pose Control`](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Pose-Control/blob/main/ltx-2-19b-ic-lora-pose-control.safetensors)
- 
+
 ### Styles
 *   [LTX-2-19b-LoRA-SPROUT](https://huggingface.co/oumoumad/LTX-2-19b-LoRA-SPROUT)
 *   [Hydraulic press](https://huggingface.co/kabachuha/ltx2-hydraulic-press)
@@ -286,7 +313,7 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy). 
   * [`Union-Control`](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Union-Control/resolve/main/ltx-2-19b-ic-lora-union-control-ref0.5.safetensors)
 
 
-<p id="wf" align="center">◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆</p>  
+<p id="wf" align="center">◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆</p>
 
 ##  Workflow & Technical Notes
 
@@ -332,8 +359,3 @@ Good collection by [RuneXX](https://huggingface.co/RuneXX)
 * [V2V (extend any video)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20V2V%20(extend%20any%20video).json)
 * [V2V Head Swap Experimental (BFS lora)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20V2V%20Head%20Swap%20Experimental%20(BFS%20lora).json)
 * [V2V Just Dub It (experimental)(translate speech auto dubbing)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/LTX-2%20-%20V2V%20Just%20Dub%20It%20(experimental)(translate%20speech%20auto%20dubbing).json)
-
-
-
-  
-
