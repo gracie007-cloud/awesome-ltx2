@@ -78,7 +78,21 @@ These models are optimized for lower memory usage. Note that in ComfyUI, these a
 <details>
   <summary>QuantStack</summary>
 
-#### [QuantStack](https://huggingface.co/QuantStack/LTX-2-GGUF)
+  #### [QuantStack LTX-2.3](https://huggingface.co/QuantStack/LTX-2.3-GGUF)
+  
+| Model | Quant | Size | Download |
+| :--- | :---: | :---: | :---: |
+| LTX-2.3 | Q2_K | 12.4 GB | [distilled](https://huggingface.co/QuantStack/LTX-2.3-GGUF/resolve/main/LTX-2.3-distilled/LTX-2.3-distilled-Q2_K.gguf) |
+| LTX-2.3 | Q3_K_M | 14.7 GB | [distilled](https://huggingface.co/QuantStack/LTX-2.3-GGUF/resolve/main/LTX-2.3-distilled/LTX-2.3-distilled-Q3_K_M.gguf) |
+| LTX-2.3 | Q3_K_S | 14 GB | [distilled](https://huggingface.co/QuantStack/LTX-2.3-GGUF/resolve/main/LTX-2.3-distilled/LTX-2.3-distilled-Q3_K_S.gguf) |
+| LTX-2.3 | Q4_K_M | 17.8 GB | [distilled](https://huggingface.co/QuantStack/LTX-2.3-GGUF/resolve/main/LTX-2.3-distilled/LTX-2.3-distilled-Q4_K_M.gguf) |
+| LTX-2.3 | Q4_K_S | 16.7 GB | [distilled](https://huggingface.co/QuantStack/LTX-2.3-GGUF/resolve/main/LTX-2.3-distilled/LTX-2.3-distilled-Q4_K_S.gguf) |
+| LTX-2.3 | Q5_K_M | 19.4 GB | [distilled](https://huggingface.co/QuantStack/LTX-2.3-GGUF/resolve/main/LTX-2.3-distilled/LTX-2.3-distilled-Q5_K_M.gguf) |
+| LTX-2.3 | Q5_K_S | 18.5 GB | [distilled](https://huggingface.co/QuantStack/LTX-2.3-GGUF/resolve/main/LTX-2.3-distilled/LTX-2.3-distilled-Q5_K_S.gguf) |
+| LTX-2.3 | Q6_K | 21 GB | [distilled](https://huggingface.co/QuantStack/LTX-2.3-GGUF/resolve/main/LTX-2.3-distilled/LTX-2.3-distilled-Q6_K.gguf) |
+| LTX-2.3 | Q8_0 | 25.5 GB | [distilled](https://huggingface.co/QuantStack/LTX-2.3-GGUF/resolve/main/LTX-2.3-distilled/LTX-2.3-distilled-Q8_0.gguf) |
+
+#### [QuantStack LTX-2](https://huggingface.co/QuantStack/LTX-2-GGUF)
 
 | Model | Quant | Size | Download |
 | :--- | :---: | :---: | :---: |
